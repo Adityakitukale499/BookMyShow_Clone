@@ -1,11 +1,10 @@
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import React from 'react'
 
 function GerneItems({ gerne, show, setShow, setGerneid }) {
 
   return (
     <>
-
-
       <Offcanvas show={show} onHide={() => setShow(false)} placement='end' style={{ width: '300px' }}>
         <Offcanvas.Header closeButton>
           <Offcanvas.Title>Gerne List</Offcanvas.Title>
