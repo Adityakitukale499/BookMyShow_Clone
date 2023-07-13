@@ -5,6 +5,9 @@ import './index.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { NoteState } from './context/NoteState'
 import { BrowserRouter } from 'react-router-dom'
+import React from 'react';
+import ReactDOM from 'react-dom';
+window.React = React
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
